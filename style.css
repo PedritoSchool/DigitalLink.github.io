@@ -1,0 +1,185 @@
+/* Estilos básicos */
+body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family:  "Oswald", sans-serif;
+    
+}
+
+nav {
+    background-color:#D99791;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+}
+
+.menu-icon {
+    display: none;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+section {
+    padding: 20px;
+    height: 100vh;
+}
+
+#home {
+    background-image: url(https://www.telemundo.com/sites/nbcutelemundo/files/styles/fit-760w/public/mujer-usando-computadora-y-.jpg?ramen_itok=iqwQftIcTf);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 130vh;
+    color: white;
+}
+
+#about {
+    background-color:#ec3434
+}
+
+#services {
+    background-color: #edfbff;
+    height: auto;
+}
+
+#contact {
+    background-color: #ec3434;
+    height: auto;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    nav ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    nav ul.show {
+        display: block;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .frontal_xiaomi{
+        width: ;
+        height: ;
+    
+    }
+    .back_xiaomi{
+        width: 250px;
+        height:200px;
+    
+    }
+}
+.contenedor1 {
+    text-align:right;
+    display: flex;
+}
+.contenedor2 {
+    text-align:right;
+    display: flex;
+}
+.laptop{
+width: 350px;
+height: 300px;
+
+}
+.texto {
+    margin-right: 10px;
+    text-align: start;
+    
+
+}
+table {
+    width: 100%; /* Ajusta según el espacio disponible */
+    max-width: 200px; /* Tamaño máximo en pantalla para que sea compacta */
+    table-layout: fixed; /* Forza a las celdas a ajustarse dentro del ancho */
+}
+
+tr {
+    height: 20px; /* Ajusta la altura de las filas */
+    
+}
+
+td {
+    width: 100px; /* Ajusta el ancho de cada celda */
+    padding: 0px; /* Reduce el padding para hacerlo compacto */
+    font-size: 12px; /* Texto más pequeño si es necesario */
+    text-align: center; /* Centra el texto en cada celda */
+}
+
+.subtitulo-legal {
+    font-size: 15px; /* Tamaño reducido */
+    font-weight: bold;
+    color: #000000; /* Color opcional para personalizar */
+    margin-top: 20px; /* Espacio superior opcional */
+}
+p, ul, ol {
+    font-size: 8px; /* Tamaño del texto para el cuerpo */
+    
+}
+
+  .contact-header {
+    margin-bottom: 5px; /* Espacio reducido debajo del título */
+    font-size: 24px; /* Tamaño de fuente deseado */
+  }
+  .contact-info {
+    margin: 3px 0; /* Espacio reducido entre párrafos */
+  }
+
+  .oswald{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+
+  }
+  .frontal_xiaomi{
+        width: 70%;
+        height: auto;
+        padding-bottom: 30%;    
+    }
+    .back_xiaomi{
+        width: 70%;
+        height: auto;
+    
+    }
+    .video{
+    position:inherit;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    }
